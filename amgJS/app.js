@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    //Below I know this url needs to be the current port created by NodeJS, this is what VSCode was using as the live port
     $.getJSON('http://127.0.0.1:5501/amgJS/AMGData.Json', function (data) {
         var reviewInfo = ' ';
         $.each(data, function() {
