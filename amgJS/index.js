@@ -1,4 +1,4 @@
-
+//I tried running code that created a port with NodeJS, IDK how to run in the terminal without a direct command
 const PORT = 8000
 const axios = require('axios');
 const cheerio = require('cheerio');
