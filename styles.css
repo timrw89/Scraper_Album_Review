@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+   
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, rgb(192, 190, 190), rgb(163, 3, 3), rgb(0, 53, 0), black);
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 5%;
+    font-family: 'IM Fell English SC';
+    margin-bottom: 2.5%;
+}
+header h1 {
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+
+li {
+    list-style: none;
+}
+
+.albumImg {
+    max-width: 14rem;
+    max-height: 14rem;
+    padding-bottom: 2.5%;
+    border-radius: 5px;
+}
+.reviewCard {
+    max-width: 16rem;
+    display: flex;
+    justify-items: top;
+    flex-direction: column;
+    align-items: center;
+    margin: .5rem .5rem;
+    padding: 1rem 1rem;
+
+}
+
+
+.reviewCard li {
+    font-weight: 600;
+    font-family: 'IM Fell English SC'
+}
+
+#AMGreviews, #MIreviews {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+ 
+    
+}
+.listWrapper {
+    max-width: 80%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    border: 5px double grey;
+    border-top-left-radius:50% 150px;
+    border-top-right-radius:50% 150px;
+    padding-top: 4%;
+    margin-bottom: 5%;
+    background-image: linear-gradient(to top left, rgb(63, 61, 61), grey, lightgrey, white)
+    
+
+}
+.listWrapper h2 {
+    font-family: 'IM Fell English SC';
+    font-size: 25px;
+}
+
